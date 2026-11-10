@@ -1,0 +1,15 @@
+[
+  {
+    "name": "여행 기록",
+    "host": "travel.neungae.com",
+    "emoji": "✈️",
+    "desc": "여행별 일정 · 맛집 · 카페 · 준비물을 한곳에",
+    "status": "live"
+  },
+  {
+    "name": "다음 프로젝트",
+    "emoji": "🌧️",
+    "desc": "준비 중 · 새 서브도메인이 생기면 여기에 추가",
+    "status": "soon"
+  }
+]

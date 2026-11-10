@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>는개 · neungae.com</title>
+<meta name="description" content="는개 — 안개비보다는 조금 굵고 이슬비보다는 가는 비. neungae.com 프로젝트 모음.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero" id="hero">
+    <canvas class="rain" id="rain" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <div class="hero-kicker">neungae.com</div>
+      <h1 class="hero-title">는개</h1>
+      <p class="hero-pron">[는ː개] · neungae</p>
+      <p class="hero-def">
+        <span class="pos">명사</span>
+        안개비보다는 조금 굵고, 이슬비보다는 가는 비.
+      </p>
+      <p class="hero-sub">소리 없이 옷깃을 적시는 비처럼, 조용히 쌓아가는 작은 프로젝트들.</p>
+    </div>
+    <div class="hero-fade" aria-hidden="true"></div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <div class="sec-head">
+        <span class="sec-badge">SITES</span>
+        <h2>는개의 서브도메인</h2>
+      </div>
+      <p class="sec-note">neungae.com 아래에서 운영 중인 사이트들 · 새 프로젝트는 <code>projects.json</code>에 한 줄 추가</p>
+      <div class="grid" id="projects">
+        <div class="card skeleton" aria-hidden="true"></div>
+        <div class="card skeleton" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>🌧️ neungae.com</span>
+      <a href="https://github.com/4midare" target="_blank" rel="noopener">GitHub</a>
+    </footer>
+  </main>
+
+  <script src="hub.js"></script>
+</body>
+</html>
