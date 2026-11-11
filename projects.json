@@ -7,9 +7,10 @@
     "status": "live"
   },
   {
-    "name": "다음 프로젝트",
-    "emoji": "🌧️",
-    "desc": "준비 중 · 새 서브도메인이 생기면 여기에 추가",
+    "name": "히로와 봉구의 집",
+    "host": "hero-bonggu.neungae.com",
+    "emoji": "🐶",
+    "desc": "비 오는 날, 치와와 히로와 닥스훈트 봉구를 함께 돌보는 멀티플레이 집",
     "status": "soon"
   }
 ]
